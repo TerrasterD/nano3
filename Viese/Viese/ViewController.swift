@@ -9,10 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var caivis : String = "Caio Gatão"
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        chamaGatao()
+        
         // Do any additional setup after loading the view.
+    }
+    
+    func chamaGatao() {
+        print(caivis)
     }
 
 
