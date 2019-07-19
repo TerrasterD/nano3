@@ -11,7 +11,7 @@ import Alamofire
 
 class ViewController: UIViewController {
     
-    var caivis : String = "Caio Gatão"
+    var caivis : String = "Caio"
 
     override func viewDidLoad() {
         super.viewDidLoad()
