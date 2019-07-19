@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -93,7 +93,6 @@
 				84D716E319E16697F0FB236F /* Pods-Viese.debug.xcconfig */,
 				1072F65833301434633F361A /* Pods-Viese.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -503,7 +502,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AH8399ZQQN;
+				DEVELOPMENT_TEAM = 6NXNC2G55R;
 				INFOPLIST_FILE = Viese/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -522,7 +521,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AH8399ZQQN;
+				DEVELOPMENT_TEAM = 6NXNC2G55R;
 				INFOPLIST_FILE = Viese/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
