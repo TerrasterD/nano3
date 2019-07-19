@@ -1,0 +1,6 @@
+framework module Pods_Viese {
+  umbrella header "Pods-Viese-umbrella.h"
+
+  export *
+  module * { export * }
+}
