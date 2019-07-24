@@ -11,7 +11,13 @@ import Alamofire
 import SpriteKit
 class ViewController: UIViewController {
     
+<<<<<<< HEAD
     var caivis : String = "Caio gado"
+=======
+    var caivis : String = "Caio GATISSIMO"
+    var igot :  String = "Eu moro em baixo da ponte"
+    var vitu : String = "Vou levar minha irmā"
+>>>>>>> BranchCaio
     
 
     override func viewDidLoad() {
@@ -23,6 +29,14 @@ class ViewController: UIViewController {
     
     func chamaGadao() {
         print(caivis)
+    }
+    
+    func chamaIgot() {
+        print(igot)
+    }
+    
+    func chamaDangel() {
+        print(vitu)
     }
 
 
