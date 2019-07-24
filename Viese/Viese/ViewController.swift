@@ -11,17 +11,17 @@ import Alamofire
 import SpriteKit
 class ViewController: UIViewController {
     
-    var caivis : String = "Caio gato"
+    var caivis : String = "Caio gado"
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        chamaGatao()
+        chamaGadao()
         
         // Do any additional setup after loading the view.
     }
     
-    func chamaGatao() {
+    func chamaGadao() {
         print(caivis)
     }
 
