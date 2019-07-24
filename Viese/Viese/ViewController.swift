@@ -11,7 +11,9 @@ import Alamofire
 import SpriteKit
 class ViewController: UIViewController {
     
-    var caivis : String = "Caio gato"
+    var caivis : String = "Caio GATISSIMO"
+    var igot :  String = "Eu moro em baixo da ponte"
+    var vitu : String = "Vou levar minha irmā"
     
 
     override func viewDidLoad() {
@@ -23,6 +25,14 @@ class ViewController: UIViewController {
     
     func chamaGatao() {
         print(caivis)
+    }
+    
+    func chamaIgot() {
+        print(igot)
+    }
+    
+    func chamaDangel() {
+        print(vitu)
     }
 
 
