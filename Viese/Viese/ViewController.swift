@@ -11,7 +11,7 @@ import Alamofire
 import SpriteKit
 class ViewController: UIViewController {
     
-    var caivis : String = "Caio gado"
+    var caivis : String = "Caio gato"
     
 
     override func viewDidLoad() {
