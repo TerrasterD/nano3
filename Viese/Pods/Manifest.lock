@@ -1,16 +1,20 @@
 PODS:
   - Alamofire (4.8.2)
+  - UnityAds (3.2.0)
 
 DEPENDENCIES:
   - Alamofire
+  - UnityAds
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - UnityAds
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  UnityAds: 2bc7ff1fd9d659745f0920df6084ba5bf9548bc8
 
-PODFILE CHECKSUM: e93fc4149811da86e936f55000faa181169efb0f
+PODFILE CHECKSUM: 1dd562b8449e61614b9d27cf1fa61c3c4c975eec
 
 COCOAPODS: 1.7.4
