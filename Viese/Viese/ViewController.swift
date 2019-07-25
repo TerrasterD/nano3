@@ -9,6 +9,8 @@
 import UIKit
 import Alamofire
 import SpriteKit
+import UnityAds
+
 class ViewController: UIViewController {
     
     var caivis : String = "Caio GATISSIMO"
