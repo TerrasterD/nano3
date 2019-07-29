@@ -8,7 +8,7 @@ target 'Viese' do
   use_frameworks!
 
   pod 'UnityAds' 
-	pod 'SQLlite.swift', ' ˜> 0.12.0'
+	pod 'SQLite.swift'
   # Pods for Viese
   pod 'Alamofire'
   # Pods for Viese
