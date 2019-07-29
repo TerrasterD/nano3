@@ -9,9 +9,11 @@
 import UIKit
 import Alamofire
 import SpriteKit
+import UnityAds
+import SQLite
 class ViewController: UIViewController {
     
-    var caivis : String = "Caio GATISSIMO"
+    var caivis : String = "Caio BOLADO"
     var igot :  String = "Eu moro em baixo da ponte"
     var vitu : String = "Vou levar minha irmā"
     

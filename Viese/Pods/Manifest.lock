@@ -1,16 +1,26 @@
 PODS:
   - Alamofire (4.8.2)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+  - UnityAds (3.2.0)
 
 DEPENDENCIES:
   - Alamofire
+  - SQLite.swift
+  - UnityAds
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - SQLite.swift
+    - UnityAds
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  UnityAds: 2bc7ff1fd9d659745f0920df6084ba5bf9548bc8
 
-PODFILE CHECKSUM: e93fc4149811da86e936f55000faa181169efb0f
+PODFILE CHECKSUM: 2e469302e1e1b7430fd3f0e749f98cd31be0180c
 
 COCOAPODS: 1.7.4
