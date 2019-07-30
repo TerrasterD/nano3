@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25F5381E22EF708F009F4B31 /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F5381D22EF708F009F4B31 /* DataBase.swift */; };
+		25F5382022EF8D1D009F4B31 /* Academy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F5381F22EF8D1D009F4B31 /* Academy.swift */; };
+		25F5382222EF98EB009F4B31 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F5382122EF98EB009F4B31 /* Cell.swift */; };
 		7777AB8851F3BB8D0DB587E4 /* Pods_Viese.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E391912ED70DFF4A9AE4067C /* Pods_Viese.framework */; };
 		78F995FC22EF70A3008C80BD /* DataBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F995FB22EF70A3008C80BD /* DataBank.swift */; };
 		78F995FE22EF8D26008C80BD /* Academies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F995FD22EF8D26008C80BD /* Academies.swift */; };
 		78F9960022EF8EDC008C80BD /* Students.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F995FF22EF8EDC008C80BD /* Students.swift */; };
 		8E21C1531EECDCCE9736E0F5 /* Pods_VieseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6C9D34C43163BFDABF73FF /* Pods_VieseUITests.framework */; };
+		952E7F3622EF70A0005A215C /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E7F3522EF70A0005A215C /* DataBase.swift */; };
+		952E7F3822EF8D8A005A215C /* Academy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E7F3722EF8D8A005A215C /* Academy.swift */; };
+		952E7F3A22EF8E52005A215C /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E7F3922EF8E52005A215C /* Student.swift */; };
 		954EA6D622E0EC5900D78231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954EA6D522E0EC5900D78231 /* AppDelegate.swift */; };
 		954EA6D822E0EC5900D78231 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954EA6D722E0EC5900D78231 /* ViewController.swift */; };
 		954EA6DB22E0EC5900D78231 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954EA6D922E0EC5900D78231 /* Main.storyboard */; };
@@ -42,11 +48,20 @@
 /* Begin PBXFileReference section */
 		1072F65833301434633F361A /* Pods-Viese.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viese.release.xcconfig"; path = "Target Support Files/Pods-Viese/Pods-Viese.release.xcconfig"; sourceTree = "<group>"; };
 		1B63CD6E177314C591A7E45B /* Pods-VieseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VieseUITests.debug.xcconfig"; path = "Target Support Files/Pods-VieseUITests/Pods-VieseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		78F995FB22EF70A3008C80BD /* DataBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBank.swift; sourceTree = "<group>"; };
 		78F995FD22EF8D26008C80BD /* Academies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Academies.swift; sourceTree = "<group>"; };
 		78F995FF22EF8EDC008C80BD /* Students.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Students.swift; sourceTree = "<group>"; };
+=======
+		25F5381D22EF708F009F4B31 /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		25F5381F22EF8D1D009F4B31 /* Academy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Academy.swift; sourceTree = "<group>"; };
+		25F5382122EF98EB009F4B31 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+>>>>>>> 81c7bb59f28b7b93210a4c8b348ec5216e1c26ba
 		84D716E319E16697F0FB236F /* Pods-Viese.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viese.debug.xcconfig"; path = "Target Support Files/Pods-Viese/Pods-Viese.debug.xcconfig"; sourceTree = "<group>"; };
 		8CD1BAFD35DE8C15817D2D15 /* Pods-VieseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VieseTests.debug.xcconfig"; path = "Target Support Files/Pods-VieseTests/Pods-VieseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		952E7F3522EF70A0005A215C /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		952E7F3722EF8D8A005A215C /* Academy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Academy.swift; sourceTree = "<group>"; };
+		952E7F3922EF8E52005A215C /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		954EA6D222E0EC5900D78231 /* Viese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viese.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		954EA6D522E0EC5900D78231 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		954EA6D722E0EC5900D78231 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -147,6 +162,15 @@
 				78F995FD22EF8D26008C80BD /* Academies.swift */,
 				78F995FF22EF8EDC008C80BD /* Students.swift */,
 				954EA6D722E0EC5900D78231 /* ViewController.swift */,
+<<<<<<< HEAD
+				952E7F3522EF70A0005A215C /* DataBase.swift */,
+				952E7F3722EF8D8A005A215C /* Academy.swift */,
+				952E7F3922EF8E52005A215C /* Student.swift */,
+=======
+				25F5382122EF98EB009F4B31 /* Cell.swift */,
+				25F5381F22EF8D1D009F4B31 /* Academy.swift */,
+				25F5381D22EF708F009F4B31 /* DataBase.swift */,
+>>>>>>> 5109444516ac57b000d4e22ba056203c02c96023
 				954EA6D922E0EC5900D78231 /* Main.storyboard */,
 				954EA6DC22E0EC5B00D78231 /* Assets.xcassets */,
 				954EA6DE22E0EC5B00D78231 /* LaunchScreen.storyboard */,
@@ -395,10 +419,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				78F995FC22EF70A3008C80BD /* DataBank.swift in Sources */,
 				954EA6D822E0EC5900D78231 /* ViewController.swift in Sources */,
 				78F9960022EF8EDC008C80BD /* Students.swift in Sources */,
 				78F995FE22EF8D26008C80BD /* Academies.swift in Sources */,
+=======
+<<<<<<< HEAD
+				952E7F3822EF8D8A005A215C /* Academy.swift in Sources */,
+				952E7F3622EF70A0005A215C /* DataBase.swift in Sources */,
+				954EA6D822E0EC5900D78231 /* ViewController.swift in Sources */,
+				952E7F3A22EF8E52005A215C /* Student.swift in Sources */,
+=======
+				25F5381E22EF708F009F4B31 /* DataBase.swift in Sources */,
+				954EA6D822E0EC5900D78231 /* ViewController.swift in Sources */,
+				25F5382222EF98EB009F4B31 /* Cell.swift in Sources */,
+				25F5382022EF8D1D009F4B31 /* Academy.swift in Sources */,
+>>>>>>> 5109444516ac57b000d4e22ba056203c02c96023
+>>>>>>> 81c7bb59f28b7b93210a4c8b348ec5216e1c26ba
 				954EA6D622E0EC5900D78231 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -576,7 +614,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+<<<<<<< HEAD
 				DEVELOPMENT_TEAM = R9ZF9XRL8Y;
+=======
+				DEVELOPMENT_TEAM = AH8399ZQQN;
+>>>>>>> 81c7bb59f28b7b93210a4c8b348ec5216e1c26ba
 				INFOPLIST_FILE = Viese/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -595,7 +637,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+<<<<<<< HEAD
 				DEVELOPMENT_TEAM = R9ZF9XRL8Y;
+=======
+				DEVELOPMENT_TEAM = AH8399ZQQN;
+>>>>>>> 81c7bb59f28b7b93210a4c8b348ec5216e1c26ba
 				INFOPLIST_FILE = Viese/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
