@@ -13,63 +13,6 @@
 import Foundation
 import SQLite
 
-<<<<<<< HEAD
-public class Banco {
-    let db: Connection?
-    static let instance = Banco()
-    
-    let academies = Table("academies")
-    let students = Table("students")
-    
-    let id = Expression<Int64>("id")
-    let name = Expression<String>("name")
-    let serieNumber = Expression<Int>("serie_number")
-    let academyId = Expression<Int>("academy_id")
-    let location = Expression<String>("location")
-    let office = Expression<String>("office")
-    
-    private init() {
-        let path = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
-        do{
-            db = try Connection("\(path)/db.sqlite")
-        }catch{
-            db = nil
-            print("Unable to open database")
-        }
-    }
-    
-    func createTables() {
-        do {
-            try db!.run(academies.create(ifNotExists: true) {table in
-                table.column(id, primaryKey: true)
-                table.column(name)
-                table.column(location)
-            })
-        }catch{
-            print("Unable to acess the table")
-        }
-        
-        do {
-            try db!.run(students.create(ifNotExists: true) {table in
-                table.column(id, primaryKey: true)
-                table.column(name)
-                table.column(serieNumber)
-                table.column(academyId)
-                table.column(office)
-            })
-        }catch{
-            print("Unable to acess the table")
-        }
-    }
-    
-    func insertAcademies(xName: String, xLocation: String) -> Int64{
-        let insert = academies.insert(name <- xName, location <- xLocation)
-        do {
-            let id = try db!.run(insert)
-            return id
-        }catch{
-            print("Unable to acess the table")
-=======
 public class Bank {
 
     let db: Connection?
@@ -120,12 +63,10 @@ public class Bank {
             
         }  catch {
             print("Insert Academies Failed")
->>>>>>> 5109444516ac57b000d4e22ba056203c02c96023
             return -1
         }
     }
     
-<<<<<<< HEAD
     func insertStudents(xName: String, xSerieNumber: Int, xAcademyId: Int, xOffice: String) -> Int64{
         let insert = students.insert(name <- xName, serieNumber <- xSerieNumber, academyId <- xAcademyId, office <- xOffice)
         do {
@@ -172,7 +113,6 @@ public class Bank {
             return false
         }
     }
-=======
     //Select
     func selectAllAcademies() -> [Academy] {
         var academies =  [Academy]()
@@ -214,8 +154,4 @@ public class Bank {
         }
         return false
     }
-    
-    
-    
->>>>>>> 5109444516ac57b000d4e22ba056203c02c96023
 }
