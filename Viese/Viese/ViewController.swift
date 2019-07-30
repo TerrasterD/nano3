@@ -10,7 +10,6 @@ import UIKit
 import Alamofire
 import SpriteKit
 import UnityAds
-import SQLite
 class ViewController: UIViewController {
     
     var caivis : String = "Caio BOLADO"
