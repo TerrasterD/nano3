@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25F5381E22EF708F009F4B31 /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F5381D22EF708F009F4B31 /* DataBase.swift */; };
+		25F5382022EF8D1D009F4B31 /* Academy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F5381F22EF8D1D009F4B31 /* Academy.swift */; };
+		25F5382222EF98EB009F4B31 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F5382122EF98EB009F4B31 /* Cell.swift */; };
 		7777AB8851F3BB8D0DB587E4 /* Pods_Viese.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E391912ED70DFF4A9AE4067C /* Pods_Viese.framework */; };
 		8E21C1531EECDCCE9736E0F5 /* Pods_VieseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6C9D34C43163BFDABF73FF /* Pods_VieseUITests.framework */; };
 		954EA6D622E0EC5900D78231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954EA6D522E0EC5900D78231 /* AppDelegate.swift */; };
@@ -39,6 +42,9 @@
 /* Begin PBXFileReference section */
 		1072F65833301434633F361A /* Pods-Viese.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viese.release.xcconfig"; path = "Target Support Files/Pods-Viese/Pods-Viese.release.xcconfig"; sourceTree = "<group>"; };
 		1B63CD6E177314C591A7E45B /* Pods-VieseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VieseUITests.debug.xcconfig"; path = "Target Support Files/Pods-VieseUITests/Pods-VieseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		25F5381D22EF708F009F4B31 /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		25F5381F22EF8D1D009F4B31 /* Academy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Academy.swift; sourceTree = "<group>"; };
+		25F5382122EF98EB009F4B31 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		84D716E319E16697F0FB236F /* Pods-Viese.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viese.debug.xcconfig"; path = "Target Support Files/Pods-Viese/Pods-Viese.debug.xcconfig"; sourceTree = "<group>"; };
 		8CD1BAFD35DE8C15817D2D15 /* Pods-VieseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VieseTests.debug.xcconfig"; path = "Target Support Files/Pods-VieseTests/Pods-VieseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		954EA6D222E0EC5900D78231 /* Viese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viese.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +145,9 @@
 			children = (
 				954EA6D522E0EC5900D78231 /* AppDelegate.swift */,
 				954EA6D722E0EC5900D78231 /* ViewController.swift */,
+				25F5382122EF98EB009F4B31 /* Cell.swift */,
+				25F5381F22EF8D1D009F4B31 /* Academy.swift */,
+				25F5381D22EF708F009F4B31 /* DataBase.swift */,
 				954EA6D922E0EC5900D78231 /* Main.storyboard */,
 				954EA6DC22E0EC5B00D78231 /* Assets.xcassets */,
 				954EA6DE22E0EC5B00D78231 /* LaunchScreen.storyboard */,
@@ -386,7 +395,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25F5381E22EF708F009F4B31 /* DataBase.swift in Sources */,
 				954EA6D822E0EC5900D78231 /* ViewController.swift in Sources */,
+				25F5382222EF98EB009F4B31 /* Cell.swift in Sources */,
+				25F5382022EF8D1D009F4B31 /* Academy.swift in Sources */,
 				954EA6D622E0EC5900D78231 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -564,7 +576,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6NXNC2G55R;
+				DEVELOPMENT_TEAM = AH8399ZQQN;
 				INFOPLIST_FILE = Viese/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -583,7 +595,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6NXNC2G55R;
+				DEVELOPMENT_TEAM = AH8399ZQQN;
 				INFOPLIST_FILE = Viese/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
